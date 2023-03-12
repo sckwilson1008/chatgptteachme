@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "CHANNEL_SECRET": "405c12ebd48d02117433cde09f727044",
+      "CHANNEL_ACCESS_TOKEN": "kwZ6RMTHwbtWUgP/pBUlDI8RJYgidnH1Zjj6EQllHDSz3yY4CUBboNpv9e4JjyojM047SNVapVg1utpll2vut6rdREiJvGGcHnGXrVNSPIji51UHILc2rUOXmlNCJEg7Sm8/2/8xzQOlBB0eWJFQ6gdB04t89/1O/w1cDnyilFU="
+    },
+    "commands": [
+      "pip install -r requirements.txt"
+    ]
+  }
+}
