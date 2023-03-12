@@ -7,8 +7,8 @@ from flask import Flask, request, abort
 app = Flask(__name__)
 
 # 使用環境變數取得Channel access token和Channel secret
-channel_access_token = os.getenv('CHANNEL_ACCESS_TOKEN')
-channel_secret = os.getenv('CHANNEL_SECRET')
+channel_access_token = 'kwZ6RMTHwbtWUgP/pBUlDI8RJYgidnH1Zjj6EQllHDSz3yY4CUBboNpv9e4JjyojM047SNVapVg1utpll2vut6rdREiJvGGcHnGXrVNSPIji51UHILc2rUOXmlNCJEg7Sm8/2/8xzQOlBB0eWJFQ6gdB04t89/1O/w1cDnyilFU='
+channel_secret = '405c12ebd48d02117433cde09f727044'
 
 line_bot_api = LineBotApi(channel_access_token)
 handler = WebhookHandler(channel_secret)
