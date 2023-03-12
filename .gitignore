@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Dependencies
+venv/
+env/
+node_modules/
+bower_components/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Configuration
+*.env
+.env/
